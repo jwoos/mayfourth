@@ -1,0 +1,18 @@
+.justify-text {
+	text-align: justify;
+}
+
+span {
+	text-align: justify;
+}
+
+span::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.star-wars-intro > .main-content {
+	width: 75%;
+	left: 12.5%;
+}
